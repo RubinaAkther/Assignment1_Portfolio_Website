@@ -1,0 +1,402 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+:root {
+  --primary-bg-color: #121212;
+  --secondary-bg-color: #222526;
+  --primary-text-color: #a6a6a6;
+  --title-text-color: #fff;
+}
+
+body {
+  background-color: var(--primary-bg-color);
+}
+
+/*
+==================================================
+Navbar start 
+==================================================
+*/
+
+.header-section {
+  padding-top: 1rem;
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.header {
+  min-height: 65px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-name {
+  color: #fa5252;
+  font-size: 1.25rem;
+  margin-left: 10px;
+  letter-spacing: 0.125rem;
+}
+
+.header-nav-items {
+  margin-left: auto;
+  display: flex;
+}
+
+.nav-items {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.nav-items-list {
+  list-style-type: none;
+  margin-left: 1.25rem;
+}
+
+.nav-items-link {
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 0.8rem;
+  background-color: var(--secondary-bg-color);
+  color: var(--title-text-color);
+  padding: 10px 16px;
+  border-radius: 5px;
+  transition: all 0.3s linear;
+}
+
+.nav-items-link i {
+  margin-right: 6px;
+}
+
+.nav-items-link:hover {
+  background-image: linear-gradient(to right, #fa5252, #dd2476);
+}
+
+.nav-items-link.active {
+  background-image: linear-gradient(to right, #fa5252, #dd2476);
+}
+
+#bar-icon {
+  display: none;
+}
+
+#bar-icon i {
+  color: var(--title-text-color);
+}
+
+.nav-toggle {
+  display: none;
+}
+
+/*
+==================================================
+Navbar End
+==================================================
+*/
+
+/*
+==================================================
+Home Hero Section Start
+==================================================
+*/
+
+.home-hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 3%;
+}
+
+.home-hero {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.myImage {
+  width: 200px;
+  height: 200px;
+}
+
+.myImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+}
+
+.hero-myName {
+  margin-top: 1rem;
+  color: var(--title-text-color);
+  font-weight: 600;
+  letter-spacing: 0.08rem;
+}
+
+.hero-profession {
+  color: var(--primary-text-color);
+  font-weight: 300;
+  margin: 0.5rem 0;
+}
+
+.hero-social-links {
+  margin-top: 1rem;
+}
+
+.social-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.social-links-items {
+  list-style: none;
+}
+
+.social-links {
+  text-decoration: none;
+  background-color: var(--secondary-bg-color);
+  padding: 10px 15px;
+  border-radius: 7px;
+  display: inline-block;
+  transition: all 0.3s linear;
+}
+
+.social-links-fb {
+  color: #1773ea;
+  padding: 10px 18px;
+}
+
+.social-links-twitter {
+  color: #1c9cea;
+}
+
+.social-links-github {
+  color: #e14a84;
+}
+
+.social-links-linkedin {
+  color: #0072b1;
+}
+
+.social-links:hover {
+  background-image: linear-gradient(to right, #fa5252, #dd2476);
+  color: var(--title-text-color);
+}
+
+.download-btn {
+  margin-top: 2.5rem;
+}
+
+.cv-link {
+  text-decoration: none;
+  color: var(--title-text-color);
+  font-weight: 300;
+  background-image: linear-gradient(to right, #fa5252, #dd2476);
+  padding: 15px 30px;
+  border-radius: 30px;
+  transition: all 0.3 linear;
+}
+
+.cv-link i {
+  margin-right: 10px;
+}
+
+.cv-link:hover {
+  background-image: linear-gradient(to left, #fa5252, #dd2476);
+}
+
+/*
+==================================================
+Home Hero Section End
+==================================================
+*/
+
+/*
+==================================================
+Footer Section Start
+==================================================
+*/
+
+.footer-content {
+  color: #fff;
+  text-align: center;
+  font-weight: 300;
+  padding: 30px;
+  background-color: #000;
+}
+
+/*
+==================================================
+Footer Section End
+==================================================
+*/
+
+/*
+==================================================
+Common CSS style
+==================================================
+*/
+
+.gradient-line {
+  width: 200px;
+  height: 2px;
+  background-image: linear-gradient(to right, #fa5252, #dd2476);
+}
+
+/*
+==================================================
+Common CSS style
+==================================================
+*/
+
+/* 
+==================================================
+profile and blog section start
+==================================================
+*/
+
+.section-header {
+  margin-top: 5%;
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  color: #fff;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.view-all {
+  color: #a6a6a6;
+  margin-bottom: 30px;
+  font-size: 1.1rem;
+  text-align: right;
+  font-family: cursive;
+  cursor: pointer;
+  transition: all 0.5s linear;
+}
+
+.view-all:hover {
+  color: #ea6666;
+}
+
+.section-cards {
+  color: #fff;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 2rem;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.section-single-cards {
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  min-height: 300px;
+}
+
+.section-single-cards:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.card-img {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.single-card-title {
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 0.05rem;
+  padding: 20px;
+}
+
+.single-card-content {
+  padding: 0 20px;
+  font-size: 0.875rem;
+  text-align: justify;
+  letter-spacing: 0.05rem;
+  margin-bottom: 20px;
+  color: #a6a6a6;
+}
+
+.single-card-link {
+  display: inline-block;
+  padding: 20px;
+  text-decoration: none;
+  color: #6a6a6a;
+  font-size: 0.875rem;
+}
+
+.single-card-link:hover {
+  text-decoration: underline;
+}
+
+/*
+==================================================
+profile and blog section end
+==================================================
+*/
+
+/*
+==================================================
+scroll bar style
+==================================================
+*/
+
+/* For Chrome, Safari, and Edge */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000000;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #000000;
+  border-radius: 10px;
+  border: 2px solid #000000;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #000000;
+}
+
+/* For Firefox */
+html {
+  scrollbar-width: thin;
+  scrollbar-color: #888 #000000;
+  scroll-behavior: smooth;
+}

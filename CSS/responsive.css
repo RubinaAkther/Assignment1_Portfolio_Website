@@ -1,0 +1,251 @@
+@media (max-width: 1200px) {
+  .container {
+    width: 100%;
+    padding: 0 1rem;
+  }
+  /* about hero section */
+  .my-info-descreption {
+    width: 98%;
+  }
+
+  /* about sevice section */
+  .expertise-area {
+    width: 48%;
+  }
+
+  /* about client */
+  .client-title {
+    padding-top: 30px;
+  }
+
+  .client-company img {
+    width: 70%;
+  }
+
+  /* footer */
+  .footer-content {
+    padding: 30px;
+  }
+}
+
+@media (max-width: 993px) {
+  #bar-icon {
+    display: block;
+  }
+
+  #bar-icon i {
+    background-color: #fa5252;
+    padding: 13px 15px;
+    border-radius: 50%;
+  }
+
+  .header {
+    flex-wrap: wrap;
+  }
+
+  .header-nav-items {
+    padding: 15px 0px;
+    display: none;
+    flex-direction: column;
+    width: 50%;
+    background-color: var(--secondary-bg-color);
+    position: absolute;
+    top: 17%;
+    left: 50%;
+    z-index: 100;
+  }
+
+  .nav-toggle:checked ~ .header-nav-items {
+    display: flex;
+  }
+
+  .nav-items-list {
+    width: 100%;
+    margin: 0;
+    padding: 0 15px;
+  }
+
+  .nav-items {
+    flex-direction: column;
+    align-items: start;
+    gap: 15px;
+    width: 100%;
+    padding: 0;
+  }
+
+  .nav-items-link {
+    width: 100%;
+    padding: 15px;
+    font-size: 1rem;
+    text-align: left;
+  }
+
+  #bar-icon {
+    display: block;
+    cursor: pointer;
+  }
+
+  #bar-icon i {
+    font-size: 1.5rem;
+  }
+
+  /* about hero-section */
+  .about-sec-content {
+    flex-direction: column;
+  }
+
+  .about-sec-img img {
+    object-position: top;
+  }
+
+  /* about sevice section */
+  .expertise-area {
+    width: 47%;
+  }
+
+  /* about client sectioin */
+  .client-company-list {
+    width: 100%;
+  }
+
+  .client-company {
+    text-align: center;
+  }
+
+  .client-company img {
+    width: 50%;
+  }
+
+  .client-company:nth-child(5) {
+    display: none;
+  }
+
+  /* resume section */
+  .resume-content {
+    grid-template-columns: 1fr;
+  }
+
+  /* certificate section */
+  .cert-item-img img {
+    width: 130px;
+  }
+  .cert-grid {
+    grid-template-columns: 70%;
+  }
+
+  /* profile section */
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .section-cards {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  /* contact section */
+  .contact-title {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 620px) {
+  .header-nav-items {
+    width: 100%;
+    top: 15%;
+    left: 0;
+  }
+
+  /* about hero section */
+  .about-title {
+    font-size: 1.7rem;
+  }
+
+  .gradient-line {
+    width: 30%;
+  }
+
+  .personal-details {
+    flex-direction: column;
+  }
+
+  /* about sevice section */
+  .expertise-area {
+    width: 100%;
+  }
+
+  /* about client sectioin */
+  .client-company {
+    width: 30%;
+  }
+
+  .client-company:nth-child(4) {
+    display: none;
+  }
+
+  /* resume section */
+  .resume-title {
+    font-size: 1.8rem;
+  }
+
+  .resume-names {
+    font-size: 1.2rem;
+  }
+
+  .resume-org {
+    font-size: 0.9rem;
+  }
+
+  /* certificate section */
+  .cert-item-img img {
+    width: 100px;
+  }
+  .cert-grid {
+    grid-template-columns: 100%;
+  }
+
+  /* skill section */
+  .skills-sub-container {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  /* profile section */
+  .section-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .section-title {
+    font-size: 1.7rem;
+  }
+
+  /* contact section */
+  .contact-title {
+    font-size: 1.7rem;
+  }
+  .contact-section {
+    flex-direction: column;
+  }
+
+  .contact-form {
+    padding-left: 0;
+  }
+
+  .contact-info {
+    margin-bottom: 30px;
+  }
+
+  .submit-button {
+    width: 100%;
+  }
+}
+
+@media (max-width: 414px) {
+  /* about client sectioin */
+  .client-company {
+    width: 50%;
+  }
+
+  .client-company:nth-child(3) {
+    display: none;
+  }
+}

@@ -1,0 +1,134 @@
+/*
+===================================================
+contact section start
+===================================================
+*/
+
+.contact-section {
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3%;
+}
+
+.contact-header {
+  margin-top: 5%;
+  margin-bottom: 30px;
+  color: #fff;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.contact-title {
+  font-size: 2.5rem;
+}
+
+.contact-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.info-row {
+  margin-bottom: 15px;
+  font-size: 1.1rem;
+  font-weight: 300;
+}
+
+.contact-form {
+  flex: 1;
+  padding-left: 40px;
+}
+
+.form-heading {
+  margin-bottom: 2.5rem;
+  font-weight: 500;
+}
+
+.form {
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+}
+
+.input-group {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.input-field {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  outline: none;
+  padding: 8px;
+  font-size: 16px;
+  width: 100%;
+  background-color: #121212;
+  color: #fff;
+  transition: border-color 0.3s;
+}
+
+.input-label {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  font-size: 16px;
+  color: #999;
+  pointer-events: none;
+  transition: all 0.3s ease;
+}
+
+.input-group .input-field:focus ~ .input-label,
+.input-group .input-field:valid ~ .input-label {
+  transform: translateY(-25px);
+  font-size: 0.8rem;
+}
+
+.input-group .input-field:focus ~ .input-name {
+  color: #fa5053;
+}
+
+#name:focus {
+  border-bottom: 1px solid #fa5053;
+}
+
+.input-group .input-field:focus ~ .input-email {
+  color: #5085d4;
+}
+
+#email:focus {
+  border-bottom: 1px solid #5085d4;
+}
+
+.input-group .input-field:focus ~ .input-msg {
+  color: #cb57f2;
+}
+
+#message:focus {
+  border-bottom: 1px solid #cb57f2;
+}
+
+.submit-button {
+  display: inline-block;
+  border: none;
+  font-weight: 300;
+  font-size: 0.8rem;
+  background-color: var(--secondary-bg-color);
+  color: var(--title-text-color);
+  width: 100px;
+  padding: 10px 16px;
+  border-radius: 5px;
+}
+
+.submit-button:hover {
+  background: linear-gradient(to right, #fa5252, #dd2476);
+}
+
+/*
+===================================================
+contact section end
+===================================================
+*/
